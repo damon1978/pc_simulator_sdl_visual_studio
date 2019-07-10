@@ -23,32 +23,32 @@
     <ProjectGuid>{6F59884D-4367-49A9-B6FD-BF60376873CE}</ProjectGuid>
     <RootNamespace>visualstudio2017sdl</RootNamespace>
     <ProjectName>visual_studio_2017_sdl_x64</ProjectName>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -157,6 +157,7 @@
     <ClCompile Include="lvgl\src\lv_hal\lv_hal_tick.c" />
     <ClCompile Include="lvgl\src\lv_misc\lv_anim.c" />
     <ClCompile Include="lvgl\src\lv_misc\lv_area.c" />
+    <ClCompile Include="lvgl\src\lv_misc\lv_async.c" />
     <ClCompile Include="lvgl\src\lv_misc\lv_circ.c" />
     <ClCompile Include="lvgl\src\lv_misc\lv_color.c" />
     <ClCompile Include="lvgl\src\lv_misc\lv_fs.c" />
@@ -315,6 +316,7 @@
     <ClInclude Include="lvgl\src\lv_hal\lv_hal_tick.h" />
     <ClInclude Include="lvgl\src\lv_misc\lv_anim.h" />
     <ClInclude Include="lvgl\src\lv_misc\lv_area.h" />
+    <ClInclude Include="lvgl\src\lv_misc\lv_async.h" />
     <ClInclude Include="lvgl\src\lv_misc\lv_circ.h" />
     <ClInclude Include="lvgl\src\lv_misc\lv_color.h" />
     <ClInclude Include="lvgl\src\lv_misc\lv_fs.h" />
